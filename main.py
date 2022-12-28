@@ -6,8 +6,8 @@ import time
 CHROME_DRIVER_PATH = "C:\Development\chromedriver.exe"
 driver = webdriver.Chrome(executable_path=CHROME_DRIVER_PATH)
 
-checking_products_sleep = 5
-checking_upgrades_sleep = 15
+checking_products_sleep = 5  # Every this many seconds it will check for new products to buy
+checking_upgrades_sleep = 15  # Every this many seconds it will check for new upgrades to buy
 
 
 def check_products():
