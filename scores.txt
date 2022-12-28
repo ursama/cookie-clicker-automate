@@ -1,0 +1,4 @@
+SCORE: 149.9 
+checking products: 5s
+checking upgrades: 15s
+
